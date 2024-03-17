@@ -126,6 +126,6 @@ return {
       },
     }
 
-    vim.keymap.set('n', '<leader>t', ':Neotree position=current<CR>', { desc = 'Open file [T]ree' })
+    vim.keymap.set('n', '<leader>f', ':Neotree position=current<CR>', { desc = 'Open [F]ile tree' })
   end,
 }
